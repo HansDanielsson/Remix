@@ -1,0 +1,84 @@
+h1 {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+h4 {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+h5,
+h6 {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+* {
+  margin: 0rem auto;
+  padding: 0rem;
+}
+
+ul.menu {
+  list-style-type: none;
+  margin: 0.1rem;
+  padding: 0.1rem;
+}
+
+li.menu {
+  display: inline;
+  float: left;
+  padding: 0.3rem;
+  background-color: #ddd;
+}
+
+.customer {
+  grid-area: myArea;
+}
+
+.grid-container {
+  display: grid;
+  grid:
+    "myArea myArea ."
+    "myArea myArea .";
+  grid-gap: 0.3rem;
+  padding: 0.3rem;
+  width: 100%;
+}
+
+.grid-container > div {
+  padding: 1rem 0;
+}
+
+.singel {
+  grid-area: mySing;
+}
+
+.singel-container {
+  display: grid;
+  grid:
+    ". mySing"
+    ". mySing";
+  grid-gap: 0.3rem;
+  padding: 0.3rem;
+  width: 100%;
+}
+
+.singel-container > div {
+  padding: 1rem 0;
+}
+
+body {
+  padding-top: 1.5rem;
+  background: #f5f7f8;
+}
